@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mik Infotech Pvt Ltd</title>
+  <style>
+
+body {
+  margin: 10;
+  padding: 0;
+  overflow: none;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+}
+
+.content h1 {
+  font-size: 40px;
+}
+
+.content p {
+  font-size: 30px;
+}
+    .header-video {
+  position: relative;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+/* Style for the video element */
+.header-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+
+/* Style for the video overlay */
+.header-video .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity and color as needed */
+}
+
+/* Style for the video overlay */
+.header-video .video-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add arrow shape */
+.header-video .video-overlay::after {
+  content: "";
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px; /* Adjust the width of the arrow as needed */
+  height: 20px; /* Adjust the height of the arrow as needed */
+  background-color: #fff; /* Adjust the color of the arrow as needed */
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+/* Style the arrow */
+.header-video .video-overlay::after {
+  content: "";
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px; /* Adjust the width of the arrow as needed */
+  height: 20px; /* Adjust the height of the arrow as needed */
+  background-color: #fff; /* Adjust the color of the arrow as needed */
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+
+/* Style for the video content */
+.header-video .video-content {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Adjust the text color as needed */
+  text-align: center;
+  z-index: 1;
+}
+
+/* Style for the navigation bar */
+.header-video .navbar {
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  right: 100px; /* Adjust the right position as needed */
+}
+
+.header-video .navbar a {
+  margin-right: 30px; /* Adjust the spacing between navigation links */
+  color: #fff; /* Adjust the link color as needed */
+  text-decoration: none;
+  font-weight: bold;
+}
+    
+    .footer {
+      background-color: #66d7df;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .footer p {
+      margin: 0;
+    }
+    
+    .footer a {
+      color: #333;
+      text-decoration: none;
+    }
+    
+    .footer ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    
+  </style>
+</head>
+    <header class="header-video">
+        <video src="mik (2).mp4" autoplay loop muted>
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+        <div class="video-content">
+        </div>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="sevice.html">Service </a>
+            <a href="client.html">clients</a>
+            <a href="pricing.html">pricing</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+      </header>
+
+      <body>
+
+        <div class="video-background">
+          <video autoplay loop muted>
+            <source src="mik (3).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="content p">
+      <centre>
+        <h1>" Our clients systems support modern society. In making them faster, more productive, and more secure, we don’t just make business work better. We make the world work better."</h1>
+      </centre>
+      <p></p>We offer wide range of software development & consultancy services to our clients across various industries
+      We are an organization with expertise across various domains including Web development, Mobile app development, Custom
+      We offer end to end solution for your business needs.<br><br>
+      Our team has expertise across various technologies including web development, mobile app development, custom software design
+      Our expertise includes Web development, Mobile app development, Custom software solutions,<br>
+      
+      Digital marketing, Video editing & Social Media Maintenancep.</p>
+
+    </div>
+  
+    <footer class="footer">
+      <p>&copy; 2023 MIK-INFOTECH Business. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      <p>chonachivillai,theruvukadai, karungal, 629157 | Phone: (+91) 9751108757| Email: miktechsolution001</p>
+    </footer>
+    
+  
+  <script>
+    // Your JavaScript code can go here
+  </script>
+  
+  
+</body>
+
+</html>
